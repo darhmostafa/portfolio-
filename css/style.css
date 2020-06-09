@@ -1,0 +1,261 @@
+
+
+/* Strat header */
+header
+{
+    min-height: 600px;
+    background-color: #FDEDEC; 
+    overflow: hidden;
+}
+
+header .nav-info
+{
+    justify-content: flex-end;
+}
+
+.picture .me-info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.sideDiv
+{
+    border: 5px solid #000;
+}
+
+.picture .me-info h1 span
+{
+    color: #E74C3C;
+    
+}
+
+.picture .button
+{
+    display: inline-block;
+    border: 1px solid #E74C3C;
+    /*background: #E74C3C;*/
+    color: #fff;
+    padding-top: 2px ;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    background: linear-gradient(90deg, #e54cff 0%, #ff8a82 100%);
+}
+
+.picture .point
+{
+    position: relative;
+}
+
+.picture img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 100% 100% 0% 0%;
+    position: absolute;
+    top: 150px;
+    right: 350px;
+    box-shadow: 4px 15px 40px 25px #924ee8;
+}
+/* End header */
+/* Strat main */
+/*
+aside .up
+{
+    background: #eee;
+    box-shadow: 4px 15px 40px 25px #ddd;
+}
+*/
+
+aside
+{
+    height: 600px;
+    background: #e085f0;
+
+}
+
+aside section
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+aside .up
+{
+    display: inline-block;
+    background: #eee;
+    padding: 6px;
+    height: 105px;
+    width: 105px;
+    border-radius: 90px;
+    
+    box-shadow: 4px 15px 40px -8px #924ee8;
+}
+
+.halfCircleTop{
+    display: inline-block;
+    height: 45px;
+    width: 90px;
+    border-radius: 90px 90px 0 0;
+    background: #fff0;
+    border: 3px solid #ff15d6;
+    border-bottom: none;
+    color: #636363;
+}
+
+.halfCircleRight
+{
+    display: inline-block;
+    height:90px;
+    width:45px;
+    border-radius: 0 90px 90px 0;
+    background: #fff0;
+    border: 3px solid #ff15d6;
+    border-left: none;
+}
+
+.halfCircleLeft
+{
+    display: inline-block;
+    height:90px;
+     width:45px;
+     border-radius: 90px 0 0 90px;
+    background: #fff0;
+    border: 3px solid #ff15d6;
+    border-right: none;
+}
+
+.halfCircleBotton
+{
+    display: inline-block;
+    height:45px;
+     width:90px;
+     border-radius: 0 0 90px 90px;
+    background: #fff0;
+    border: 3px solid #ff15d6;
+    border-top: none;
+    margin-top: 46px;
+}
+
+
+/* End main */
+
+/* Strat Footer */
+
+.clear
+{
+    clear: both;
+}
+
+footer
+{
+    height: 800px;
+    background: #7affd7;
+    padding-top: 20px;
+}
+
+footer .main-form
+{
+    height: 650px;
+    width: 70%;
+    background: #fff;
+    margin: 75px auto;
+    text-align: center;
+}
+
+footer .main-form .icon i
+{
+    display: inline-block;
+    background: linear-gradient(90deg, #e54cff 0%, #ff8a82 100%);
+    color: #fff;
+    padding: 20px;
+    border-radius: 50%; 
+    text-align: center;
+}
+
+footer .main-form .icon
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px ;
+    padding-bottom: 30px ;
+}
+
+footer .main-form h1
+{
+    color: #e54cff;
+}
+
+footer .main-form p
+{
+    width: 70%;
+    margin: auto;
+}
+
+footer .main-form form label
+{
+    margin: 25px;
+    margin-left: 65px;
+}
+
+footer .main-form form input[type="text"]
+{
+    width: 35%;
+}
+
+footer .main-form form input[type="email"]
+{
+    width: 35%;
+}
+
+footer .main-form form input
+{
+  width: 45%;
+  border: 1px solid #eee;
+  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+footer .main-form form textarea
+{
+  width: 90%;
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 100px;
+  font-size: 18px;
+  display: block;
+  margin-left: 54px;
+}
+
+footer .main-form form button
+{
+    display: block;
+    border: 1px solid #E74C3C;
+    color: #fff;
+    padding-top: 2px ;
+    border-radius: 5px;
+    width: 100px;
+    background: linear-gradient(90deg, #e54cff 0%, #ff8a82 100%);
+    margin: 50px auto;
+}
+
+/* End Footer */
+
+
+    
